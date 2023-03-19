@@ -17,10 +17,10 @@ function onFormSubmit(event) {
         console.log('onFormSubmit -> value', value);
     });
 
-    if (email.value || password.value === '') {
+    if (email.value === "" || password.value === "") {
         alert("Fill in the fields of the form");
     } else {
-        alert('The form have been submitted!');
+        alert('The form has been submitted!');
         console.log(`The form has email ${email.value} and password ${password.valeu}`);
     }
 }
