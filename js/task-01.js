@@ -1,4 +1,4 @@
-const liItem = document.querySelectorAll(`.item`);
+const liItem = document.querySelectorAll('.item');
 
 liItem.forEach(el => {
     console.log(el.firstElementChild.textContent)
