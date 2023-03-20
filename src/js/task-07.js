@@ -3,5 +3,5 @@ const span = document.getElementById("text");
 
 fontControler.addEventListener('input', (event) => {
     // const size = fontControler
-    span.style.fontSize = input.value + px;
+    span.style.fontSize = event.currentTarget.value + "px";
 });
